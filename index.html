@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas Alonso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+<nav class="sticky top-0 bg-white shadow-md z-50">
+
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+
+        <h1 class="text-2xl font-bold text-blue-600">
+            TA
+        </h1>
+
+        <div class="flex gap-8">
+            <a href="#proyectos">Proyectos</a>
+            <a href="#skills">Skills</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+
+    </div>
+
+</nav>
+<section class="flex flex-col items-center justify-center min-h-[80vh] px-6 text-center">
+
+    <img
+        class="w-52 h-52 rounded-full object-cover shadow-xl border-4 border-blue-500"
+        src="./img/Captura desde 2026-05-26 17-30-47.png"
+        alt="Tomás Alonso"
+    >
+
+    <h1 class="mt-8 text-5xl font-bold">
+        Hola, soy <span class="text-blue-600">Tomás Alonso</span>
+    </h1>
+
+    <p class="mt-4 text-xl text-gray-600 max-w-2xl">
+        Estudiante de Desarrollo de Software especializado en
+        JavaScript, React, Python, Flask y bases de datos SQL.
+    </p>
+
+    <div class="flex gap-4 mt-8">
+        <a
+            href="#proyectos"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+        >
+            Ver proyectos
+        </a>
+
+        <a  target="_blank"
+            href="https://github.com/tomasalonso002"
+            class="border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100"
+        >
+            GitHub
+        </a>
+    </div>
+</section>
+
+<section id="skills" class="py-20">
+
+    <h2 class="text-4xl font-bold text-center mb-10">
+        Tecnologías
+    </h2>
+
+    <div class="flex flex-wrap justify-center gap-4">
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            HTML
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            CSS
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            JavaScript
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            React
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            Python
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            Django
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            SQL
+        </span>
+
+        <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+            Git y GitHUb
+        </span>
+
+    </div>
+
+</section>
+
+<section id="proyectos" class="py-20">
+
+    <h2 class="text-4xl font-bold text-center mb-10">
+        Proyectos
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8 px-10">
+
+        <div class="shadow-lg rounded-xl p-6">
+            <h3 class="text-xl font-bold">
+               MiniBlog "Clik"
+            </h3>
+
+            <p class="mt-2 text-gray-600 mb-2">
+                Aplicación web para de uso social, permite a los usuarios hacer publicaciones, comentar.
+                Se trabaja la gestion de usuarios, autenticaciones y permisos
+            </p>
+            
+            <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+                Python
+            </span>
+            <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+                Flask
+            </span>
+            <span class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full">
+                React
+            </span>
+            
+
+        </div>
+
+        <div class="shadow-lg rounded-xl p-6">
+            <h3 class="text-xl font-bold">
+                Sistema para un Gym "Plenuus"
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+                Gestión de alumnos, pagos y horarios utilizando Flask.
+            </p>
+        </div>
+
+        <div class="shadow-lg rounded-xl p-6">
+            <h3 class="text-xl font-bold">
+                API REST
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+                Backend desarrollado con Flask, SQLAlchemy y JWT.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+</body>
+</html>
